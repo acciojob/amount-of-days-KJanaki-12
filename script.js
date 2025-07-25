@@ -7,7 +7,6 @@ function daysOfYear(year) {
 		return 365;
 	}
 }
-
 let year=prompt("Enter a year:");
 let days=daysOfYear(year);
-alert(`The year ${year} has ${days} days.`);
+console.log(days);
